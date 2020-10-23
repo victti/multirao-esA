@@ -63,13 +63,21 @@ function Update(){
 
 function add(value) {
     votes += value;
+    if(votes > 1800){
+        votes = 1800;
+    }
     document.getElementById("input-votos").value = votes;
     Update();
 }
 
 
 function UpdateInput(){
-    votes = parseInt(this.value);
+    var intValue = parseInt(this.value);
+    if(intValue > 1800){
+        intValue = 1800;
+    }
+    votes = intValue;
+    document.getElementById("input-votos").value = votes;
     Update();
 }
 
