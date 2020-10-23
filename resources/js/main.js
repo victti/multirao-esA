@@ -63,6 +63,8 @@ function Update(){
 
 function add(value) {
     votes += value;
+    if(votes < 0)
+        votes = 0;
     if(votes > 1800){
         votes = 1800;
     }
@@ -73,6 +75,8 @@ function add(value) {
 
 function UpdateInput(){
     var intValue = parseInt(this.value);
+    if(intValue < 0)
+        intValue = 0;
     if(intValue > 1800){
         intValue = 1800;
     }
