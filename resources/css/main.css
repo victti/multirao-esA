@@ -16,6 +16,16 @@ html, body, .body-container {
     justify-content: center;
 }
 
+.aviso {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.aviso a {
+    color: #fff;
+}
+
 .esa-card {
     background: url("../img/image0.png") no-repeat;
     height: 559px;
