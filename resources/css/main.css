@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body, .body-container {
+    background-color: #111;
+    height: 100%;
+    width: 100%;
+}
+
+.body-container{
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.esa-card {
+    background: url("../img/image0.png") no-repeat;
+    height: 559px;
+    position: relative;
+    width: 423px;
+}
+
+.x-mark {
+    background: url("../img/x-png-icon-8.png") no-repeat;
+    background-size: cover;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+}
+
+.controls-label {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#input-votos{
+    width: 100px;
+}
+
+.links {
+    margin-top: 15px;
+}
+
+.links a {
+    color: #fff;
+    margin: 10px;
+}
