@@ -1,4 +1,4 @@
-var votes = 10;
+var votes = 0;
 
 window.onload = function(){
     document.getElementById("input-votos").addEventListener('change', UpdateInput);
